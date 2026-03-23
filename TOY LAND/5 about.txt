@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ToyLand</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <!-- Same nav code -->
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Toy<span class="highlight">Land</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="product.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="cart.html" class="nav-link cart-link" id="cartCount">
+                    <i class="fas fa-shopping-cart"></i> Cart (<span id="cartBadge">0</span>)
+                </a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-page">
+        <div class="container">
+            <div class="about-content">
+                <h1>About ToyLand</h1>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>Where Imagination Comes to Life</h2>
+                        <p>ToyLand was founded with a simple mission: to bring joy and wonder to every child's world. For over 10 years, we've been curating the finest collection of toys that spark creativity, encourage learning, and create lasting memories.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>10K+</h3>
+                                <p>Happy Customers</p>
+                            </div>
+                            <div class="stat">
+                                <h3>500+</h3>
+                                <p>Unique Toys</p>
+                            </div>
+                            <div class="stat">
+                                <h3>5★</h3>
+                                <p>Average Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                    </div
