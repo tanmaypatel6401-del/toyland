@@ -1,0 +1,79 @@
+style.css
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+}
+
+.navbar {
+    background: #ff6b6b;
+    padding: 15px;
+    color: white;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #ffe66d;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.categories {
+    padding: 40px;
+}
+
+.category-card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.category-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyLand - Best Toys for Kids</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Toy<span class="highlight">Land</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="product.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="cart.html" class="nav-link cart-link" id="cartCount">
+                    <i class="fas fa-shopping-cart"></i> Cart (<span id="cartBadge">0</span>)
+                </a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the Magic of Childhood</h1>
+            <p>Premium quality toys that spark imagination and create lasting memories</p>
+            <div class="hero-buttons">
+                <a href="product.html" class="btn btn-primary">Shop Now</a>
+                <a href="product.html" class="btn btn-secondary">View Categories</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-shape"></div>
+        </div>
+    </section>
+
+    <!-- Featured Toys -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Featured Toys</h2>
+            <div class="products-grid" id="featuredProducts"></div>
+                <!-- Products loaded by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="educational">
+                    <i class="fas fa-book"></i>
+                    <h3>Educational</h3>
+                    <p>Learning through play</p>
+                </div>
+                <div class="category-card" data-category="action">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>Action Figures</h3>
+                    <p>Superhero adventures</p>
+                </div>
+                <div class="category-card" data-category="soft">
+                    <i class="fas fa-heart"></i>
+                    <h3>Soft Toys</h3>
+                    <p>Cuddly companions</p>
+                </div>
+                <div class="category-card" data-category="remote">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Remote Control</h3>
+                    <p>High-tech fun</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="offers">
+        <div class="container">
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">50% OFF</div>
+                    <h3>Winter Sale</h3>
+                    <p>Limited time offer on all toys!</p>
+                    <a href="product.html" class="btn btn-primary">Shop Sale</a>
+                </div>
+                <div class="offer-card free-shipping">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Free Shipping</h3>
+                    <p>On orders over $50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Toy<span class="highlight">Land</span></h3>
+                    <p>Bringing joy to every child's world with quality toys.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ToyLand. All rights reserved.</p>
+            </div>
+        </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
